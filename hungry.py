@@ -3,7 +3,7 @@ if hungry == "yes":
     print("eat samosa")
     print("eat pizza")
     print("eat burger")
-elif hungry == "no":
-    print("go play football")
 else:
-    print("do your homework")
+    thirsty = input("are you thirsty")
+    if thirsty == "yes":
+        print("drink water")
